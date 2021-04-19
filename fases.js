@@ -4,8 +4,7 @@ import axios from "axios";
 
 const fases = ({ navigation, route }) => {
   const [fases, setFases] = useState();
-  const token = "test_61458dbd071037525bd16a65cc0db2";
-  const idCampeonato = route.params?.idCampeonato;
+  const token = "live_db28974480a033add1a4d5afee06bf";
 
   useEffect(() => {
     axios

@@ -4,7 +4,7 @@ import axios from "axios";
 
 const partidas = ({ navigation, route }) => {
   const [partidas, setPartidas] = useState();
-  const token = "test_61458dbd071037525bd16a65cc0db2";
+  const token = "live_db28974480a033add1a4d5afee06bf";
   const idFase = route.params?.idFase;
 
   useEffect(() => {
